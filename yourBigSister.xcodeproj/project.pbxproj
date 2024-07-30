@@ -11,6 +11,9 @@
 		BD0DB9EF2C5953EA0020B97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9EE2C5953EA0020B97D /* ContentView.swift */; };
 		BD0DB9F12C5953EB0020B97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0DB9F02C5953EB0020B97D /* Assets.xcassets */; };
 		BD0DB9F42C5953EB0020B97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0DB9F32C5953EB0020B97D /* Preview Assets.xcassets */; };
+		BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FA2C595B3B0020B97D /* femh.swift */; };
+		BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FC2C595E9F0020B97D /* repo.swift */; };
+		BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FE2C595EDC0020B97D /* haircare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BD0DB9EE2C5953EA0020B97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD0DB9F02C5953EB0020B97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0DB9F32C5953EB0020B97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD0DB9FA2C595B3B0020B97D /* femh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = femh.swift; sourceTree = "<group>"; };
+		BD0DB9FC2C595E9F0020B97D /* repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repo.swift; sourceTree = "<group>"; };
+		BD0DB9FE2C595EDC0020B97D /* haircare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haircare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				BD0DB9EC2C5953EA0020B97D /* yourBigSisterApp.swift */,
 				BD0DB9EE2C5953EA0020B97D /* ContentView.swift */,
+				BD0DB9FC2C595E9F0020B97D /* repo.swift */,
+				BD0DB9FE2C595EDC0020B97D /* haircare.swift */,
+				BD0DB9FA2C595B3B0020B97D /* femh.swift */,
 				BD0DB9F02C5953EB0020B97D /* Assets.xcassets */,
 				BD0DB9F22C5953EB0020B97D /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */,
 				BD0DB9EF2C5953EA0020B97D /* ContentView.swift in Sources */,
+				BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */,
 				BD0DB9ED2C5953EA0020B97D /* yourBigSisterApp.swift in Sources */,
+				BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

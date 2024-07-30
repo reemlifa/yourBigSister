@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var response = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    
+        HStack{
+            NavigationStack {
+                NavigationLink(destination: femh()) {
+                    Text("Feminine Hygeine")
+                }
+                NavigationLink(destination: repo()) {
+                    Text("Repo Justice")
+                }
+                NavigationLink(destination: repo()) {
+                    Text("Hair Care")
+                }
+                
+            }
+                }
+            }
         }
-        .padding()
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
-
-#Preview {
-    ContentView()
-}
