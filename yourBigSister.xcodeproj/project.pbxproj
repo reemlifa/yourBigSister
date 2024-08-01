@@ -14,6 +14,11 @@
 		BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FC2C595E9F0020B97D /* repo.swift */; };
 		BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FE2C595EDC0020B97D /* haircare.swift */; };
 		BD33AAD32C5BDB4B00933EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */; };
+		BD33AAD82C5BF9B100933EF2 /* hair1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD42C5BF9B100933EF2 /* hair1.swift */; };
+		BD33AAD92C5BF9B100933EF2 /* hair4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD52C5BF9B100933EF2 /* hair4.swift */; };
+		BD33AADA2C5BF9B100933EF2 /* hair3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD62C5BF9B100933EF2 /* hair3.swift */; };
+		BD33AADB2C5BF9B100933EF2 /* hair2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD72C5BF9B100933EF2 /* hair2.swift */; };
+		BDDB6C732C5BFD040047B1A3 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDB6C722C5BFD040047B1A3 /* launchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		BD0DB9FC2C595E9F0020B97D /* repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repo.swift; sourceTree = "<group>"; };
 		BD0DB9FE2C595EDC0020B97D /* haircare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haircare.swift; sourceTree = "<group>"; };
 		BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD33AAD42C5BF9B100933EF2 /* hair1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hair1.swift; sourceTree = "<group>"; };
+		BD33AAD52C5BF9B100933EF2 /* hair4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hair4.swift; sourceTree = "<group>"; };
+		BD33AAD62C5BF9B100933EF2 /* hair3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hair3.swift; sourceTree = "<group>"; };
+		BD33AAD72C5BF9B100933EF2 /* hair2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hair2.swift; sourceTree = "<group>"; };
+		BDDB6C722C5BFD040047B1A3 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +71,13 @@
 				BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */,
 				BD0DB9FC2C595E9F0020B97D /* repo.swift */,
 				BD0DB9FE2C595EDC0020B97D /* haircare.swift */,
+				BD33AAD42C5BF9B100933EF2 /* hair1.swift */,
+				BD33AAD72C5BF9B100933EF2 /* hair2.swift */,
+				BD33AAD62C5BF9B100933EF2 /* hair3.swift */,
+				BD33AAD52C5BF9B100933EF2 /* hair4.swift */,
 				BD0DB9FA2C595B3B0020B97D /* femh.swift */,
 				BD0DB9F02C5953EB0020B97D /* Assets.xcassets */,
+				BDDB6C722C5BFD040047B1A3 /* launchScreen.storyboard */,
 				BD0DB9F22C5953EB0020B97D /* Preview Content */,
 			);
 			path = yourBigSister;
@@ -135,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0DB9F42C5953EB0020B97D /* Preview Assets.xcassets in Resources */,
+				BDDB6C732C5BFD040047B1A3 /* launchScreen.storyboard in Resources */,
 				BD0DB9F12C5953EB0020B97D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +165,12 @@
 				BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */,
 				BD33AAD32C5BDB4B00933EF2 /* ContentView.swift in Sources */,
 				BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */,
+				BD33AADB2C5BF9B100933EF2 /* hair2.swift in Sources */,
+				BD33AAD82C5BF9B100933EF2 /* hair1.swift in Sources */,
 				BD0DB9ED2C5953EA0020B97D /* yourBigSisterApp.swift in Sources */,
+				BD33AADA2C5BF9B100933EF2 /* hair3.swift in Sources */,
 				BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */,
+				BD33AAD92C5BF9B100933EF2 /* hair4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,6 +338,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

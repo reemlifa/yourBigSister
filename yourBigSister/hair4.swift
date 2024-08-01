@@ -10,7 +10,7 @@ import SwiftUI
 struct hair4: View {
     var body: some View {
         ZStack{
-            Color.lightPink
+            Color.pinky
                 .ignoresSafeArea()
             
             ScrollView{
@@ -21,7 +21,7 @@ struct hair4: View {
                             Text("Hair Type 1")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -30,7 +30,7 @@ struct hair4: View {
                             Text("Hair Type 2")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -39,7 +39,7 @@ struct hair4: View {
                             Text("Hair Type 3")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -52,7 +52,7 @@ struct hair4: View {
                             radius: 3,
                             x: 0,
                             y: 2)
-                        .foregroundColor(Color.bigsisterbrown)
+                        .foregroundColor(Color.darkbrown)
                         .multilineTextAlignment(.center)
                     
                     Image("type4")
@@ -64,7 +64,7 @@ struct hair4: View {
                         Text("Characteristics: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("Type 3 hair is thick coily hair. These strands have an Z-shaped coil pattern and have a gravity-defying spring. Type 4 hair cuticles don’t lay flat just like type 3 hair so they support a lot of volume. A,B,C categories refer to how tight the curls are with 4A being the loosest. These categories also determine how much shrinkage you experience.")
@@ -80,7 +80,7 @@ struct hair4: View {
                         Text("How to Wash: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("There's **five** key steps you need to follow to properly wash Type 4 hair.")
@@ -110,7 +110,7 @@ struct hair4: View {
                         Text("How to Style: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("**Natural:** Some hairstyles include afros, ponytails, buns, and puffs. Some protectives styles are . Some like to add extensions or wear wigs. Do what you like!")
@@ -132,7 +132,7 @@ struct hair4: View {
                         Text("How to Maintain: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("**Moisturize & Detangle:** Type 4 hair needs a lot of moisture so keep up to date with your hair to avoid breakage. Also detangling is very important due to type 4's tight curls.  Always detangle on damp hair and never dry hair. Use a detangling tool like a wide tooth comb or detangling brush and take your time. Using a product with some slip like a conditioner or detangling lotion will make the process easier. The product helps you glide through your hair smoothly without pulling and tugging on your hair strands.. ")
@@ -144,6 +144,11 @@ struct hair4: View {
                     .background()
                     .cornerRadius(10)
                     .padding(.horizontal)
+                    
+                    Image("end")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250.0, height: 120.0, alignment: .top)
                 }
             }
         }

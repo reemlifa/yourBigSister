@@ -10,7 +10,7 @@ import SwiftUI
 struct hair2: View {
     var body: some View {
         ZStack{
-            Color.lightPink
+            Color.pinky
                 .ignoresSafeArea()
             
             ScrollView{
@@ -20,7 +20,7 @@ struct hair2: View {
                             Text("Hair Type 1")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -29,7 +29,7 @@ struct hair2: View {
                             Text("Hair Type 3")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -39,7 +39,7 @@ struct hair2: View {
                             Text("Hair Type 4")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -54,7 +54,7 @@ struct hair2: View {
                             radius: 3,
                             x: 0,
                             y: 2)
-                        .foregroundColor(Color.bigsisterbrown)
+                        .foregroundColor(Color.darkbrown)
                         .multilineTextAlignment(.center)
                     
                     Image("type2")
@@ -66,7 +66,7 @@ struct hair2: View {
                         Text("Characteristics: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("Type 2 hair is fine wavy hair. These strands have an S-shaped curl pattern and don't have much volume. Your hair probably gets greasy quick and is easy to overload with product. A,B,C types refer to the density of your hair with 2A being the finest.")
@@ -82,7 +82,7 @@ struct hair2: View {
                         Text("How to Wash: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("There's **four** key steps you need to follow to properly wash Type 2 hair.")
@@ -109,7 +109,7 @@ struct hair2: View {
                         Text("How to Style: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("**Hair Styles:** A one-length haircut is ideal. Layering could make your hair seem too thin, especially if you go back and forth between straight and wavy styles. Type 2 hair usually does best in a long or medium-length cut.")
@@ -131,7 +131,7 @@ struct hair2: View {
                         Text("How to Maintain: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("**Frizz:** As aforementioned, frizz and curl maintainence is the biggest problem. Just make sure to use your products and wash no more than 2x a week. Use silk pillows and bonnets to reduce friction.")
@@ -140,6 +140,11 @@ struct hair2: View {
                     .background()
                     .cornerRadius(10)
                     .padding(.horizontal)
+                    
+                    Image("end")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250.0, height: 120.0, alignment: .top)
                 }
             }
         }

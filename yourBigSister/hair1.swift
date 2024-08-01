@@ -10,7 +10,7 @@ import SwiftUI
 struct hair1: View {
     var body: some View {
         ZStack{
-            Color.lightPink
+            Color.pinky
                 .ignoresSafeArea()
             
             ScrollView{
@@ -20,7 +20,7 @@ struct hair1: View {
                             Text("Hair Type 2")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -29,7 +29,7 @@ struct hair1: View {
                             Text("Hair Type 3")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -39,7 +39,7 @@ struct hair1: View {
                             Text("Hair Type 4")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -54,7 +54,7 @@ struct hair1: View {
                             radius: 3,
                             x: 0,
                             y: 2)
-                        .foregroundColor(Color.bigsisterbrown)
+                        .foregroundColor(Color.darkbrown)
                         .multilineTextAlignment(.center)
                     
                     Image("type1")
@@ -66,7 +66,7 @@ struct hair1: View {
                         Text("Characteristics: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             
                         
                         Text("Type 1 hair is fine straight hair. These strands barely have a curl pattern and don't have much volume. Your hair probably gets greasy quick and is easy to overload with product. A,B,C types refer to the density of your hair with 1A being the finest.")
@@ -82,7 +82,7 @@ struct hair1: View {
                         Text("How to Wash: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("There's **three** key steps you need to follow to properly wash Type 1 hair.")
@@ -106,7 +106,7 @@ struct hair1: View {
                         Text("How to Style: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("**Hair Styles:** Layering hair styles offer volume and blunt bobs look the best with straight hair.")
@@ -123,6 +123,11 @@ struct hair1: View {
                     .background()
                     .cornerRadius(10)
                     .padding(.horizontal)
+                    
+                    Image("end")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250.0, height: 120.0, alignment: .top)
                 }
             }
         }

@@ -95,7 +95,7 @@ struct ContentView: View {
                             .fontWeight(.bold)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding()
-                      
+                        
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             
@@ -185,29 +185,29 @@ struct ContentView: View {
                     Rectangle()
                         .fill(Color("curlyBrown"))
                         .frame(width: 200, height: 85)
-                        .toolbar{
-                            ToolbarItemGroup(placement: .bottomBar){
-                                Button(action: {}) {
-                                    Image(systemName: "suit.heart")
-                                        .foregroundColor(Color("tan"))
-                                        
-                                    
-                                    
-                                }
-                                Button(action: {}) {
-                                    Image(systemName: "person.crop.circle.fill")
-                                        .foregroundColor(Color("tan"))
-                                    
-                                    
-                                }
-                                Button(action: {}) {
-                                    Image(systemName: "newspaper")
-                                        .foregroundColor(Color("tan"))
-                                    
-                                    
-                                }
-                                
-                            }
+                    //                        .toolbar{
+                    //                            ToolbarItemGroup(placement: .bottomBar){
+                    //                                Button(action: {}) {
+                    //                                    Image(systemName: "suit.heart")
+                    //                                        .foregroundColor(Color("tan"))
+                    //
+                    //
+                    //
+                    //                                }
+                    //                                Button(action: {}) {
+                    //                                    Image(systemName: "person.crop.circle.fill")
+                    //                                        .foregroundColor(Color("tan"))
+                    //
+                    //
+                    //                                }
+                    //                                Button(action: {}) {
+                    //                                    Image(systemName: "newspaper")
+                    //                                        .foregroundColor(Color("tan"))
+                    //
+                    //
+                    //                                }
+                    
+                }
                             //
                         }
                             
@@ -216,10 +216,10 @@ struct ContentView: View {
                     
                 }
             }
-        }
         
         
-    }
+        
+    
     
 
 

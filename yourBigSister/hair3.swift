@@ -10,7 +10,7 @@ import SwiftUI
 struct hair3: View {
     var body: some View {
         ZStack{
-            Color.lightPink
+            Color.pinky
                 .ignoresSafeArea()
             ScrollView{
                 VStack (spacing: 20){
@@ -20,7 +20,7 @@ struct hair3: View {
                             Text("Hair Type 1")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -29,7 +29,7 @@ struct hair3: View {
                             Text("Hair Type 2")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -38,7 +38,7 @@ struct hair3: View {
                             Text("Hair Type 4")
                         }
                         .padding()
-                        .background(Color.bigsisterbrown)
+                        .background(Color.darkbrown)
                         .foregroundColor(.white)
                         .font(.subheadline)
                         .cornerRadius(10)
@@ -52,7 +52,7 @@ struct hair3: View {
                             radius: 3,
                             x: 0,
                             y: 2)
-                        .foregroundColor(Color.bigsisterbrown)
+                        .foregroundColor(Color.darkbrown)
                         .multilineTextAlignment(.center)
                     
                     Image("type3")
@@ -64,7 +64,7 @@ struct hair3: View {
                         Text("Characteristics: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("Type 3 hair is thick curly hair. These strands have an S-shaped coil pattern and have a gravity-defying bounce. Type 3 hair cuticles don’t lay flat unlike type 1 or type 2 so they support a lot of volume. A,B,C categories refer to how tight the curls are with 3A being the loosest. These categories also determine how much shrinkage you experience.")
@@ -80,7 +80,7 @@ struct hair3: View {
                         Text("How to Wash: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("There's **three** key steps you need to follow to properly wash Type 3 hair.")
@@ -104,7 +104,7 @@ struct hair3: View {
                         Text("How to Style: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Text("**Hair Styles:** Bobs and bangs show off the volume and look amazing with type 3 hair. Puff ponytails and clawclips can also keep your hair out of your face.")
@@ -127,7 +127,7 @@ struct hair3: View {
                         Text("How to Maintain: ")
                             .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(Color.bigsisterbrown)
+                            .foregroundColor(Color.darkbrown)
                             .multilineTextAlignment(.leading)
                         
                         Text("**Cleansing & Styling:** Don't wash your hair too often to avoid dehydrating your hair. Also put your products when your hair is still damp.")
@@ -140,6 +140,11 @@ struct hair3: View {
                     .background()
                     .cornerRadius(10)
                     .padding(.horizontal)
+                    
+                    Image("end")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250.0, height: 120.0, alignment: .top)
                 }
             }
                     }
