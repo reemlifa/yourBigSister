@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BD0DB9ED2C5953EA0020B97D /* yourBigSisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9EC2C5953EA0020B97D /* yourBigSisterApp.swift */; };
-		BD0DB9EF2C5953EA0020B97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9EE2C5953EA0020B97D /* ContentView.swift */; };
 		BD0DB9F12C5953EB0020B97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0DB9F02C5953EB0020B97D /* Assets.xcassets */; };
 		BD0DB9F42C5953EB0020B97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0DB9F32C5953EB0020B97D /* Preview Assets.xcassets */; };
 		BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FA2C595B3B0020B97D /* femh.swift */; };
 		BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FC2C595E9F0020B97D /* repo.swift */; };
 		BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FE2C595EDC0020B97D /* haircare.swift */; };
+		BD33AAD12C5BD5EC00933EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD0DB9E92C5953EA0020B97D /* yourBigSister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yourBigSister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0DB9EC2C5953EA0020B97D /* yourBigSisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourBigSisterApp.swift; sourceTree = "<group>"; };
-		BD0DB9EE2C5953EA0020B97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD0DB9F02C5953EB0020B97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0DB9F32C5953EB0020B97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD0DB9FA2C595B3B0020B97D /* femh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = femh.swift; sourceTree = "<group>"; };
 		BD0DB9FC2C595E9F0020B97D /* repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repo.swift; sourceTree = "<group>"; };
 		BD0DB9FE2C595EDC0020B97D /* haircare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haircare.swift; sourceTree = "<group>"; };
+		BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Downloads/ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				BD0DB9EC2C5953EA0020B97D /* yourBigSisterApp.swift */,
-				BD0DB9EE2C5953EA0020B97D /* ContentView.swift */,
+				BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */,
 				BD0DB9FC2C595E9F0020B97D /* repo.swift */,
 				BD0DB9FE2C595EDC0020B97D /* haircare.swift */,
 				BD0DB9FA2C595B3B0020B97D /* femh.swift */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */,
-				BD0DB9EF2C5953EA0020B97D /* ContentView.swift in Sources */,
+				BD33AAD12C5BD5EC00933EF2 /* ContentView.swift in Sources */,
 				BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */,
 				BD0DB9ED2C5953EA0020B97D /* yourBigSisterApp.swift in Sources */,
 				BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */,
