@@ -68,6 +68,7 @@ struct repo: View {
                         .font(.subheadline)
                         .fontWeight(.light)
                         .multilineTextAlignment(.center)
+                        .padding(.horizontal)
                     
                     ScrollView {
                         WebView(url: URL(string: "https://www.plannedparenthood.org/get-care")!)
