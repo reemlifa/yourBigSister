@@ -13,7 +13,7 @@
 		BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FA2C595B3B0020B97D /* femh.swift */; };
 		BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FC2C595E9F0020B97D /* repo.swift */; };
 		BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DB9FE2C595EDC0020B97D /* haircare.swift */; };
-		BD33AAD12C5BD5EC00933EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */; };
+		BD33AAD32C5BDB4B00933EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		BD0DB9FA2C595B3B0020B97D /* femh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = femh.swift; sourceTree = "<group>"; };
 		BD0DB9FC2C595E9F0020B97D /* repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repo.swift; sourceTree = "<group>"; };
 		BD0DB9FE2C595EDC0020B97D /* haircare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haircare.swift; sourceTree = "<group>"; };
-		BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Downloads/ContentView.swift; sourceTree = "<group>"; };
+		BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				BD0DB9EC2C5953EA0020B97D /* yourBigSisterApp.swift */,
-				BD33AAD02C5BD5EC00933EF2 /* ContentView.swift */,
+				BD33AAD22C5BDB4B00933EF2 /* ContentView.swift */,
 				BD0DB9FC2C595E9F0020B97D /* repo.swift */,
 				BD0DB9FE2C595EDC0020B97D /* haircare.swift */,
 				BD0DB9FA2C595B3B0020B97D /* femh.swift */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0DB9FB2C595B3B0020B97D /* femh.swift in Sources */,
-				BD33AAD12C5BD5EC00933EF2 /* ContentView.swift in Sources */,
+				BD33AAD32C5BDB4B00933EF2 /* ContentView.swift in Sources */,
 				BD0DB9FF2C595EDC0020B97D /* haircare.swift in Sources */,
 				BD0DB9ED2C5953EA0020B97D /* yourBigSisterApp.swift in Sources */,
 				BD0DB9FD2C595E9F0020B97D /* repo.swift in Sources */,
